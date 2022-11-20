@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* main {
+  text-align: left;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+} */
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(238, 100%, 44%, 0.78);
+/*   hsla(238, 100%, 44%, 0.78) */
+  transition: 0.4s;
+  border-radius: 0px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(238, 100%, 44%, 0.3);
+    border-radius: 5px
+  }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logo {
+  font-size: 8rem;
+  color: rgb(51, 122, 255);
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.player {
+  background-color: rgb(51, 122, 255);
+  margin: 15px;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
